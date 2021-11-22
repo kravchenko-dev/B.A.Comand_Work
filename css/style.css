@@ -2,3 +2,69 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  width: 1600px;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  margin-left: 100px;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 52px;
+  margin-left: 205px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+a {
+  color: #021206;
+  text-decoration: none;
+}
+
+.feature {
+  margin-right: 57px;
+}
+
+.download {
+  margin-right: 37px;
+}
+
+.pricing {
+  margin-right: 221px;
+}
+
+.button {
+  margin-top: 40px;
+}
+
+.login {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #fff;
+  border: 0px solid #ffffff;
+  margin-right: 23px;
+}
+
+.sign {
+  background-color: #F44545;
+  border: 0px solid #F44545;
+  padding: 15px 30px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
