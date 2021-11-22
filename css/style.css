@@ -7,3 +7,59 @@ body {
   width: 1600px;
   margin: auto;
 }
+
+/* Kravchenko */
+
+/* section one */
+
+.single_feature_1 {
+  width: 1203px;
+  height: 464px;
+  margin-left: 227px;
+}
+
+.single_feature_1_img {
+  float: right;
+  position: relative;
+  width: 595px;
+  height: 464px;
+}
+
+.single_feature_1_text_block {
+  width: 370px;
+  height: 398px;
+  position: absolute;
+}
+
+.single_feature_1_text_block h3,
+.single_feature_2_text_block h3 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 68px;
+  color: #021206;
+  height: 136px;
+}
+
+.single_feature_1_text_block p {
+  width: 448px;
+  height: 58px;
+  padding-top: 20px;
+}
+
+.single_feature_1_list {
+  list-style: none;
+}
+
+.single_feature_1_list_item::before {
+  content: url(' ../img/img_tick.png ');
+  vertical-align: middle;
+}
+
+.single_feature_1_list_item {
+  height: 29px;
+  padding-top: 16px;
+}
+
+.single_feature_1_list_item:first-child {
+  padding-top: 20px;
+}
