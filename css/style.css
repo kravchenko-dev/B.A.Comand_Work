@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +21,6 @@ body {
 .single_feature_1_img {
   float: right;
   position: relative;
-  /* width: 595px;
-  height: 464px; */
   margin: -55px -130px 0 0;
 }
 
@@ -169,8 +166,8 @@ body {
 }
 
 .sign {
-  background-color: #F44545;
-  border: 0px solid #F44545;
+  background-color: #f44545;
+  border: 0px solid #f44545;
   padding: 15px 30px;
   font-family: 'Poppins', sans-serif;
   border-radius: 6px;
@@ -197,7 +194,7 @@ body {
 }
 
 .step {
-  color: #4EDAAC;
+  color: #4edaac;
 }
 
 .medium_dote {
@@ -207,7 +204,7 @@ body {
   left: 550px;
   top: 390px;
   border-radius: 3px;
-  background: #4EDAAC;
+  background: #4edaac;
 }
 
 .small_dote {
@@ -216,7 +213,7 @@ body {
   height: 5px;
   left: 560px;
   top: 391.5px;
-  background: #4EDAAC;
+  background: #4edaac;
   border-radius: 3px;
 }
 
@@ -225,9 +222,8 @@ body {
   width: 509px;
   font-weight: 400;
   font-size: 21px;
-  line-height:33,6px;
+  line-height: 33, 6px;
 }
-
 
 .email {
   padding-top: 30px;
@@ -248,8 +244,8 @@ body {
   width: 120px;
   height: 53px;
   margin-left: -4px;
-  background-color: #F44545;
-  border: 0px solid #F44545;
+  background-color: #f44545;
+  border: 0px solid #f44545;
   border-radius: 6px;
   margin-left: 15px;
   font-weight: 500;
@@ -286,7 +282,6 @@ body {
   display: flex;
 }
 .left {
-
   margin: 157px 0 0 135px;
   width: 50%;
   box-sizing: border-box;
@@ -312,31 +307,31 @@ body {
   padding-left: 35px;
   padding-top: 9px;
 }
-.card-title{
+.card-title {
   font-size: 23px;
   padding-left: 35px;
 }
-.right{
-margin-top: 213px;
-width: 548px;
+.right {
+  margin-top: 213px;
+  width: 548px;
 }
-.right-title{
-font-size: 45px;
+.right-title {
+  font-size: 45px;
 }
-.right-text{
-font-size: 18px;
-padding: 20px 0 21px 0;
+.right-text {
+  font-size: 18px;
+  padding: 20px 0 21px 0;
 }
-.right-button{
-width: 183px;
-height: 59px;
-background-color: black;
-color: white;
-font-size: 18px;
-border-radius: 10px;
+.right-button {
+  width: 183px;
+  height: 59px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
 }
-.right-button-text{
-font-size: 18px;
-color: red;
-padding-left: 25px;
+.right-button-text {
+  font-size: 18px;
+  color: red;
+  padding-left: 25px;
 }
