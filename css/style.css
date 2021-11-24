@@ -5,14 +5,14 @@
 body {
     width: 1600px;
 }
-.logo {
+.logo-company {
     background-color: #f4fcfa;
     display: flex;
     justify-content: space-around;
     padding: 0 227px;
     height: 163px;
 }
-.logo > img {
+.logo-company > img {
     width: 170px;
     height: 54px;
     padding-top: 50px;
