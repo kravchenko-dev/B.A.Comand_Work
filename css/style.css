@@ -1,4 +1,77 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1600px;
+}
+.logo {
+    background-color: #f4fcfa;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 227px;
+    height: 163px;
+}
+.logo > img {
+    width: 170px;
+    height: 54px;
+    padding-top: 50px;
+}
+.card {
+    display: flex;
+}
+.left {
+  
+    margin: 157px 0 0 135px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+.left_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.user-card {
+    width: 282px;
+    height: 290px;
+    border: 1px solid #e6e7e6;
+    border-radius: 10px;
+}
+.user-card:hover {
+    box-shadow: 0px 4px 24px #cccccc;
+}
+p {
+    font-size: 19px;
+    padding-left: 35px;
+    padding-top: 9px;
+}
+h6 {
+    font-size: 23px;
+    padding-left: 35px;
+}
+.right{
+  margin-top: 213px;
+  width: 548px;
+}
+h1{
+  font-size: 45px;
+}
+.right>p{
+  font-size: 18px;
+  padding: 20px 0 21px 0;
+}
+button{
+  width: 183px;
+  height: 59px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+span{
+  font-size: 18px;
+  color: red;
+  padding-left: 25px;
 }
