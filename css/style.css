@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -166,8 +167,8 @@ body {
 }
 
 .sign {
-  background-color: #f44545;
-  border: 0px solid #f44545;
+  background-color: #F44545;
+  border: 0px solid #F44545;
   padding: 15px 30px;
   font-family: 'Poppins', sans-serif;
   border-radius: 6px;
@@ -181,6 +182,7 @@ body {
   width: 487px;
   margin-top: 100px;
   margin-left: 148px;
+  position: relative;
 }
 
 .text {
@@ -194,26 +196,26 @@ body {
 }
 
 .step {
-  color: #4edaac;
+  color: #4EDAAC;
 }
 
 .medium_dote {
   position: absolute;
   width: 7px;
   height: 7px;
-  left: 550px;
-  top: 390px;
+  left: 402px;
+  top: 133px;
   border-radius: 3px;
-  background: #4edaac;
+  background: #4EDAAC;
 }
 
 .small_dote {
   position: absolute;
   width: 5px;
   height: 5px;
-  left: 560px;
-  top: 391.5px;
-  background: #4edaac;
+  left: 412px;
+  top: 134.4px;
+  background: #4EDAAC;
   border-radius: 3px;
 }
 
@@ -222,8 +224,9 @@ body {
   width: 509px;
   font-weight: 400;
   font-size: 21px;
-  line-height: 33, 6px;
+  line-height:33,6px;
 }
+
 
 .email {
   padding-top: 30px;
@@ -244,8 +247,8 @@ body {
   width: 120px;
   height: 53px;
   margin-left: -4px;
-  background-color: #f44545;
-  border: 0px solid #f44545;
+  background-color: #F44545;
+  border: 0px solid #F44545;
   border-radius: 6px;
   margin-left: 15px;
   font-weight: 500;
@@ -257,8 +260,8 @@ body {
 
 .laptop {
   position: absolute;
-  top: 110px;
-  left: 750px;
+  top: -100px;
+  left: 550px;
 }
 
 .social {
