@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -167,8 +166,8 @@ body {
 }
 
 .sign {
-  background-color: #F44545;
-  border: 0px solid #F44545;
+  background-color: #f44545;
+  border: 0px solid #f44545;
   padding: 15px 30px;
   font-family: 'Poppins', sans-serif;
   border-radius: 6px;
@@ -196,7 +195,7 @@ body {
 }
 
 .step {
-  color: #4EDAAC;
+  color: #4edaac;
 }
 
 .medium_dote {
@@ -206,7 +205,7 @@ body {
   left: 402px;
   top: 133px;
   border-radius: 3px;
-  background: #4EDAAC;
+  background: #4edaac;
 }
 
 .small_dote {
@@ -215,7 +214,7 @@ body {
   height: 5px;
   left: 412px;
   top: 134.4px;
-  background: #4EDAAC;
+  background: #4edaac;
   border-radius: 3px;
 }
 
@@ -224,9 +223,8 @@ body {
   width: 509px;
   font-weight: 400;
   font-size: 21px;
-  line-height:33,6px;
+  line-height: 33, 6px;
 }
-
 
 .email {
   padding-top: 30px;
@@ -247,8 +245,8 @@ body {
   width: 120px;
   height: 53px;
   margin-left: -4px;
-  background-color: #F44545;
-  border: 0px solid #F44545;
+  background-color: #f44545;
+  border: 0px solid #f44545;
   border-radius: 6px;
   margin-left: 15px;
   font-weight: 500;
@@ -269,17 +267,23 @@ body {
 }
 
 /* dubnickiy */
+
 .logo-company {
   background-color: #f4fcfa;
   display: flex;
   justify-content: space-around;
   padding: 0 227px;
   height: 163px;
+  margin-top: 155px;
 }
 .logo-company > img {
-  width: 170px;
-  height: 54px;
+  /* width: 170px; */
+  height: 57px;
   padding-top: 50px;
+}
+
+.logo-company > img:not(:last-child) {
+  margin-right: 85px;
 }
 .card {
   display: flex;
