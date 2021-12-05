@@ -21,6 +21,7 @@
   position: relative;
   max-width: 1600px;
   margin: 0 auto;
+  margin-top: 135px;
   padding: 91px 15px 15px 15px;
 }
 .soft {
@@ -256,7 +257,7 @@
 .card-block {
   position: relative;
 }
-.card {
+.card1 {
   width: 361px;
   min-height: 604px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -397,7 +398,7 @@
   font-weight: 600;
   background: rgb(245, 84, 84);
 }
-.card-block__input:checked ~ .card {
+.card-block__input:checked ~ .card1 {
   box-shadow: 0px 20px 100px rgba(2, 18, 6, 0.15);
 }
 .footer {
